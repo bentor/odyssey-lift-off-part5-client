@@ -21,9 +21,9 @@ const GET_TRACK = gql`
       modules {
         id
         title
-        durationInSeconds
       }
       description
+        durationInSeconds
     }
   }
 `;
